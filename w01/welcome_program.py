@@ -24,3 +24,8 @@ print(book.upper())
 print(book.lower())
 print(book.title())
 print(book.capitalize())
+
+car = input("What is the make of the car? ")
+color = input("What is the color of the car? ")
+model = input("What is the model of the car? ")
+print(f"The make of the car is {car}, and the color is {color}, and the model is {model}.")
